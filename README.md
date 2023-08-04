@@ -18,7 +18,7 @@ In your main project add to pubspec.yaml:
     sdk: flutter
   flutter_lints: ^2.0.0
   purchases_flutter_mock: 
-    path: F://FlutterProjects/purchases_flutter_mock  ```
+    path: F://FlutterProjects/purchases_flutter_mock```
 
 Replace `F://FlutterProjects` with your path.
 Replace purchases_flutter in your dart files with purchases_flutter_mock, e.g. in VS Code go to Edit->Replace in files
