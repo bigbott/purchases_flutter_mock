@@ -1,39 +1,32 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+This package mocks the purchases_flutter package. 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+[purchases_flutter](https://pub.dev/packages/purchases_flutter) package from RevenueCat allows adding in-app-purchase functionality without creating any backend.
+But purchases_flutter requires testing on real device and also requires creating `closed testing track` on Google Play Console with the release undergoing review, which can take some time. 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Allows testing on local development machine, e.g. Windows. 
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Clone this repository as a separate project in your IDE.  
+
+In your main project add to pubspec.yaml: 
+```dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  purchases_flutter_mock: 
+    path: F://FlutterProjects/purchases_flutter_mock  ```
+
+Replace `F://FlutterProjects` with your path.
+Replace purchases_flutter in your dart files with purchases_flutter_mock, e.g. in VS Code go to Edit->Replace in files
+
 
 ## Usage
+Products are hardcoded inside purchases_flutter_mock/purchases_flutter.dart. Change them according to your needs. 
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
-```dart
-const like = 'sample';
-```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Check 
