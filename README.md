@@ -13,12 +13,14 @@ Allows testing **in-app-purchase** on local development machine, e.g. Windows.
 Clone this repository as a separate project in your IDE.  
 
 In your main project add to pubspec.yaml: 
-```dev_dependencies:
+```
+dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
   purchases_flutter_mock: 
-    path: F://FlutterProjects/purchases_flutter_mock```
+    path: F://FlutterProjects/purchases_flutter_mock
+```
 
 Replace `F://FlutterProjects` with your path.
 Replace purchases_flutter in your dart files with purchases_flutter_mock, e.g. in VS Code go to Edit->Replace in files
