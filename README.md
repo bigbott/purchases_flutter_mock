@@ -30,5 +30,3 @@ Replace purchases_flutter in your dart files with purchases_flutter_mock, e.g. i
 Products are hardcoded inside purchases_flutter_mock/purchases_flutter.dart. Change them according to your needs. 
 
 
-
-Check 
