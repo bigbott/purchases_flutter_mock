@@ -6,7 +6,7 @@ But purchases_flutter requires testing on real device and also requires creating
 
 ## Features
 
-Allows testing on local development machine, e.g. Windows. 
+Allows testing **in-app-purchase** on local development machine, e.g. Windows. 
 
 ## Getting started
 
